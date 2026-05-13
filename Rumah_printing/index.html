@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rumah Printing</title>
+  
+<!--   gl font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+<!--   feather-icons -->
+   <script src="https://unpkg.com/feather-icons"></script>
+   
+ <!-- AOS -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   
+<!-- Bootstreb -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+<!-- Fancybox CSS -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+/>
+
+<!-- Fancybox JS -->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+  
+  <link rel="stylesheet" href="../Style/style.css">
+  <link rel="icon" type="jpg" href="../Assets/Img/Logo.png">
+  
+</head>
+<body>
+<!--   Navbar start -->
+<nav class="navbar">
+  
+<div class="logo-container">
+  <div class="logo-nav">
+    <img src="../Assets/Img/Logo.png" alt="Logo">
+  </div>
+  <a href="#" class="navbar-logo">Rumah <span>Printing</span></a>
+</div>
+  
+  <div class="navbar-nav">
+    <a href="#home">Home</a>
+    <a href="#about">Tentang Kami</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Kontak</a>
+  </div>
+  
+  <div class="navbar-extra">
+    <button id="toggleMode" class="btn btn-outline-secondary">
+      <i id="modeIcon" data-feather="moon"></i>
+    </button>
+    <button id="hamburger-menu"><i data-feather="menu"></i></button>
+  </div>
+</nav>
+<!--   Navbar end-->
+
+<!-- Hero section start -->
+<section class="hero" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" id="home">
+    <div class="container-fluid">
+    <div class="profil-container">
+        <!-- Kolom Profil -->
+        <div class="logo-box">
+          
+            <img src="../Assets/Img/Bg-icon.png" alt="Profil" class="profil-img">
+          
+        </div>
+        
+        <!-- Kolom Teks -->
+        <div class="content">
+            <h1>Mari ke toko kami</h1>
+            <p>Solusi untuk aneka percetakan anda <br>Rumah Printing trmpatnya</p>
+            <a href="#contact" class="cta">Pesan sekarang</a>
+        </div>
+    </div>
+    </div>
+</section>
+<!-- Hero section end -->
+
+<!-- About section start -->
+<section id="about" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" data-aos-delay="60" data-aos-duration="2000" class="about">
+  <h2><span>Tentang</span> Kami</h2>
+  
+  <div data-aos="zoom-in"
+     data-aos-anchor-placement="top-bottom" data-aos-delay="50" data-aos-duration="1000" class="row">
+    <div class="about-img">
+      <img src="../Assets/Img/about me.jpg" alt="Tentang Kami">
+    </div>
+    
+    <div class="content">
+    <h3>Kenapa Memilih Kami</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit atque molestiae a nam earum iste nemo repellat officia, ipsa sunt.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis iste porro libero unde sit quia earum, nulla impedit. Quisquam, rerum.</p>
+  </div>
+  </div>
+  
+</section>
+<!-- About section end -->
+
+<!-- Menu section start -->
+<section id="menu" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" data-aos-delay="50" data-aos-duration="1500" class="menu">
+   <h2><span>Kami</span> Melayani</h2>
+   <p>Jika berminat bisa langsung datang ke toko atau hubungi <a href="" >WhatsApp</a> kami</p>
+   
+   <div class="row">
+      <div class="menu-card">
+        <a data-fancybox="gallery" data-src="../Assets/Img/Menu/menu1.jpg" data-caption="Undangan">
+          <img src="../Assets/Img/Menu/menu1.jpg" alt="Undangan" class="menu-card-img" />
+        </a>
+        <h3 class="menu-card-title">- Undangan -</h3>
+      </div>
+    
+      <div class="menu-card">
+        <a data-fancybox="gallery" data-src="../Assets/Img/Menu/menu2.jpg" data-caption="Spanduk">
+          <img src="../Assets/Img/Menu/menu2.jpg" alt="Spanduk" class="menu-card-img" />
+        </a>
+        <h3 class="menu-card-title">- Spanduk -</h3>
+      </div>
+    
+      <div class="menu-card">
+        <a data-fancybox="gallery" data-src="../Assets/Img/Menu/menu3.jpg" data-caption="Yasin">
+          <img src="../Assets/Img/Menu/menu3.jpg" alt="Yasin" class="menu-card-img" />
+        </a>
+        <h3 class="menu-card-title">- Yasin -</h3>
+      </div>
+    
+      <div class="menu-card">
+        <a data-fancybox="gallery" data-src="../Assets/Img/Menu/menu4.jpg" data-caption="Cover Rapot">
+          <img src="../Assets/Img/Menu/menu4.jpg" alt="Cover Rapot" class="menu-card-img" />
+        </a>
+        <h3 class="menu-card-title">- Cover Rapot -</h3>
+      </div>
+    
+      <div class="menu-card">
+        <a data-fancybox="gallery" data-src="../Assets/Img/Menu/menu5.jpg" data-caption="Plakat Akrilik">
+          <img src="../Assets/Img/Menu/menu5.jpg" alt="Plakat Akrilik" class="menu-card-img" />
+        </a>
+        <h3 class="menu-card-title">- Plakat Akrilik -</h3>
+      </div>
+    
+      <div class="menu-card">
+        <a data-fancybox="gallery" data-src="../Assets/Img/Menu/menu6.jpg" data-caption="Brosur">
+          <img src="../Assets/Img/Menu/menu6.jpg" alt="Brosur" class="menu-card-img" />
+        </a>
+        <h3 class="menu-card-title">- Brosur -</h3>
+      </div>
+    
+      <div class="menu-card">
+        <a data-fancybox="gallery" data-src="../Assets/Img/Menu/menu7.jpg" data-caption="Benner">
+          <img src="../Assets/Img/Menu/menu7.jpg" alt="Benner" class="menu-card-img" />
+        </a>
+        <h3 class="menu-card-title">- Benner -</h3>
+      </div>
+    
+      <div class="menu-card">
+        <a data-fancybox="gallery" data-src="../Assets/Img/Menu/menu8.jpg" data-caption="Piala">
+          <img src="../Assets/Img/Menu/menu8.jpg" alt="Piala" class="menu-card-img" />
+        </a>
+        <h3 class="menu-card-title">- Piala -</h3>
+      </div>
+    
+      <div class="menu-card">
+        <a data-fancybox="gallery" data-src="../Assets/Img/Menu/menu9.jpg" data-caption="Bingkai Foto">
+          <img src="../Assets/Img/Menu/menu9.jpg" alt="Bingkai Foto" class="menu-card-img" />
+        </a>
+        <h3 class="menu-card-title">- Bingkai Foto -</h3>
+      </div>
+    
+      <div class="menu-card">
+        <a data-fancybox="gallery" data-src="../Assets/Img/Menu/menu10.jpg" data-caption="ID Card">
+          <img src="../Assets/Img/Menu/menu10.jpg" alt="ID Card" class="menu-card-img" />
+        </a>
+        <h3 class="menu-card-title">- ID Card -</h3>
+      </div>
+    
+      <div class="menu-card">
+        <a data-fancybox="gallery" data-src="../Assets/Img/Menu/menu11.jpg" data-caption="Stiker">
+          <img src="../Assets/Img/Menu/menu11.jpg" alt="Stiker" class="menu-card-img" />
+        </a>
+        <h3 class="menu-card-title">- Stiker -</h3>
+      </div>
+    
+      <div class="menu-card">
+        <a data-fancybox="gallery" data-src="../Assets/Img/Menu/menu12.jpg" data-caption="Mug Gelas Costum">
+          <img src="../Assets/Img/Menu/menu12.jpg" alt="Mug Gelas Costum" class="menu-card-img" />
+        </a>
+        <h3 class="menu-card-title">- Mug Gelas Costum -</h3>
+      </div>
+    
+      <div class="menu-card">
+        <a data-fancybox="gallery" data-src="../Assets/Img/Menu/menu13.jpg" data-caption="Mendali">
+          <img src="../Assets/Img/Menu/menu13.jpg" alt="Mendali" class="menu-card-img" />
+        </a>
+        <h3 class="menu-card-title">- Mendali -</h3>
+      </div>
+    
+      <div class="menu-card">
+        <a data-fancybox="gallery" data-src="../Assets/Img/Menu/menu14.jpg" data-caption="Kalender">
+          <img src="../Assets/Img/Menu/menu14.jpg" alt="Kalender" class="menu-card-img" />
+        </a>
+        <h3 class="menu-card-title">- Kalender -</h3>
+      </div>
+    
+      <div class="menu-card">
+        <a data-fancybox="gallery" data-src="../Assets/Img/Menu/menu15.jpg" data-caption="Dll">
+          <img src="../Assets/Img/Menu/menu15.jpg" alt="Dll" class="menu-card-img" />
+        </a>
+        <h3 class="menu-card-title">- Dll -</h3>
+      </div>
+    </div>
+</section>
+<!-- Menu section end-->
+
+<!-- Contact section start -->
+<section id="contact" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" data-aos-delay="50" data-aos-duration="1500" class="contact">
+   <h2><span>Kontak</span> Kami</h2>
+   <p>Pilih metode komunikasi yang paling nyaman untuk Anda</p>
+   
+     <div class="container">
+      <div data-aos="zoom-in"
+     data-aos-anchor-placement="top-bottom" data-aos-delay="50" data-aos-duration="1000" class="card phone">
+        <div class="icon"><i class="bi bi-whatsapp"></i></div>
+        <h2>WhatsApp (Disarankan)</h2>
+        <p>Respon tercepat untuk proyek konsultasi dan diskusi</p>
+        <p><strong>Telepon:</strong> 0878 8888 3133</p>
+        <p>Jam kerja: 08.00–17.00 WIB <br>Senin-Sabtu</p>
+        <a href="tel:087877232333" class="button phone"> Hubungi Sekarang</a>
+      </div>
+      <div data-aos="zoom-in"
+     data-aos-anchor-placement="top-bottom" data-aos-delay="50" data-aos-duration="1000" class="card phone">
+        <div class="icon"><i class="bi bi-whatsapp"></i></div>
+        <h2>WhatsApp</h2>
+        <p>Untuk diskusi detail dan konsultasi mendalam</p>
+        <p><strong>Telepon:</strong> 0812 7177 7391</p>
+        <p>Jam kerja: 08.00–17.00 WIB <br>Senin-Sabtu</p>
+        <a href="tel:087877232333" class="button phone">Hubungi Sekarang</a>
+      </div>
+      <div data-aos="zoom-in"
+     data-aos-anchor-placement="top-bottom" data-aos-delay="50" data-aos-duration="1000" class="card phone">
+        <div class="icon-email"><i class="bi bi-envelope"></i></div>
+        <h2>Email</h2>
+        <p>Untuk penyelidikan formal dan dokumentasi proyek</p>
+        <p><strong>Email:</strong> rumahprinting86@gmail.com</p>
+        <p>Jam kerja: 08.00–17.00 WIB <br>Senin-Sabtu</p>
+        <a href="rumahprinting86@gmail.com" class="button phone">Hubungi Sekarang</a>
+      </div>
+    </div>
+    
+   <div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" data-aos-delay="50" data-aos-duration="1500" class="text-heading">
+     <h2><span>Kirim</span> Pesan</h2>
+     <p>Isi formulir di bawah ini untuk mengirimkan pesan kepada kami</p>
+   </div>
+   
+   <div data-aos="zoom-in"
+     data-aos-anchor-placement="top-bottom" data-aos-delay="50" data-aos-duration="1500" class="row">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.504603021222!2d102.53152329999999!3d-3.4697366999999977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e313bd01e8afb7d%3A0xd387e7f16986f8ae!2sCV.%20Rumah%20Printing%20(%20Percetakan%20Rumah%20Printing%20)!5e0!3m2!1sid!2sid!4v1749557169426!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+     
+    <form id="waForm" onsubmit="sendToWhatsApp(); return false;">
+      <div class="input-grup">
+        <i data-feather="user"></i>
+        <input type="text" id="nama" placeholder="nama" required>
+      </div>
+      <div class="input-grup">
+        <i data-feather="phone"></i>
+        <input type="number" id="nomor" placeholder="no hp" required>
+      </div>
+      <div class="input-grup">
+        <i data-feather="edit-3"></i>
+        <textarea id="pesan" placeholder="pesan" required></textarea>
+      </div>
+      <button class="btn" type="submit">Kirim pesan</button>
+    </form>
+   </div>
+   
+   <div data-aos="zoom-in"
+     data-aos-anchor-placement="top-bottom" data-aos-delay="50" data-aos-duration="1500" class="text-heading">
+     <h2>Kunjungi sosial media kami</h2>
+   </div>
+   
+   <div data-aos="zoom-in"
+     data-aos-anchor-placement="top-bottom" data-aos-delay="50" data-aos-duration="1000" class="social-container">
+    <div class="icon-wrapper instagram">
+      <span class="tooltip">Instagram</span>
+      <a href="https://www.instagram.com/rumah.printing.crp?igsh=ZGgwbzl5c25mZmVz"><i class="fab fa-instagram"></i></a>
+    </div>
+  
+    <div class="icon-wrapper youtube">
+      <span class="tooltip">YouTube</span>
+      <a href="https://youtube.com/@rumahprinting2506?si=ibQSedm2dPVH0gty"><i class="fab fa-youtube"></i></a>
+    </div>
+  
+    <div class="icon-wrapper facebook">
+      <span class="tooltip">Facebook</span>
+      <a href="https://www.facebook.com/share/1LqKYM3VZi/"><i class="fab fa-facebook-f"></i></a>
+    </div>
+  
+    <div class="icon-wrapper tiktok">
+      <span class="tooltip">TikTok</span>
+      <a href="https://www.tiktok.com/@cv.rumahprinting?_t=ZS-8xYU9NgnizQ&_r=1"><i class="fab fa-tiktok"></i></a>
+    </div>
+   </div>
+
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   
+</section>
+<!-- Contact section end -->
+
+<!-- Footer start -->
+<footer class="">
+  <div class="sosials-media">
+    <a href="https://www.instagram.com/6470riansurya?igsh=b2Y5cWxucnlnaG9k"><i class="bi bi-instagram"></i></a>
+    <a href="https://wa.me/qr/3Q3C2B3VU2ZOL1"><i class="bi bi-whatsapp"></i></a>
+    <a href="https://www.facebook.com/share/18ZCcH59Ur/?mibextid=qi2Omg"><i class="bi bi-facebook"></i></a>
+    <a href="https://github.com/Surya-git-hup"><i class="bi bi-github"></i></a>
+  </div>
+  
+  <div class="links">
+    <a href="#home">Home</a>
+    <a href="#about">Tentang Kami</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Kontak</a>
+  </div>
+  
+  <div class="credit">
+    <p>&copy; 2025 Rumah Printing. Created by <a href="#">riansurya</a>. | Hak cipta dilindungi undang-undang</p>
+  </div>
+</footer>
+<!-- Footer end -->
+
+<!--   feather-icons -->
+<script>
+      feather.replace();
+</script>
+
+<!-- My js -->
+<script src="../Js/script.js"></script>
+
+<!-- Bootstreb -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  
+<script>
+  function sendToWhatsApp() {
+    const nama = document.getElementById("nama").value.trim();
+    const nomorUser = document.getElementById("nomor").value.trim();
+    const pesan = document.getElementById("pesan").value.trim();
+
+    if (!nama || !nomorUser || !pesan) {
+      alert("Mohon isi semua kolom sebelum mengirim.");
+      return;
+    }
+
+    // GANTI DENGAN NOMOR WHATSAPP TUJUANMU
+    const nomorTujuan = "6285142312644";
+
+    const teksPesan = `Halo, saya ${nama} (${nomorUser}), ingin menyampaikan pesan:\n${pesan}`;
+    const url = `https://wa.me/${nomorTujuan}?text=${encodeURIComponent(teksPesan)}`;
+
+    window.open(url, '_blank');
+  }
+</script>
+
+</body>
+</html>
